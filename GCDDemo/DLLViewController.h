@@ -10,4 +10,9 @@
 
 @interface DLLViewController : UIViewController
 
+- (IBAction)dispatchButtonTapped:(id)sender;
+- (IBAction)notificationButtonTapped:(id)sender;
+
+@property (nonatomic, strong) IBOutlet UILabel *label;
+
 @end
